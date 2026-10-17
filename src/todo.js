@@ -1,5 +1,5 @@
-const createTodo = (title, description, dueDate, priority) => {
-  let completed = false;
+const createTodo = (title, description, dueDate, priority, isCompleted) => {
+  let completed = isCompleted;
 
   const toggleCompleted = () => {
     completed = !completed;

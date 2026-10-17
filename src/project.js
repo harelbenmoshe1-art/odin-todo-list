@@ -13,6 +13,7 @@ const createProject = (name) => {
 
   return {
     name,
+    todos,
     addTodo,
     removeTodo,
     getTodos
